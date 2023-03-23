@@ -16,7 +16,6 @@ import {
   IconNorthStar,
 } from "@tabler/icons-react";
 import { useLiveQuery } from "dexie-react-hooks";
-import { Logo } from "../components/Logo";
 import { SettingsModal } from "../components/SettingsModal";
 import { db } from "../db";
 
@@ -29,9 +28,6 @@ export function IndexRoute() {
       <Center py="xl" sx={{ height: "100%" }}>
         <Container size="sm">
           <Badge mb="lg">GPT API, arkin style</Badge>
-          <Text>
-            <Logo style={{ maxWidth: 240 }} />
-          </Text>
           <Text mt={4} size="xl">
             just another UI for GPT APIs
           </Text>
