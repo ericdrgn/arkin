@@ -28,12 +28,12 @@ export function IndexRoute() {
     <>
       <Center py="xl" sx={{ height: "100%" }}>
         <Container size="sm">
-          <Badge mb="lg">GPT-4 Ready</Badge>
+          <Badge mb="lg">GPT API, arkin style</Badge>
           <Text>
             <Logo style={{ maxWidth: 240 }} />
           </Text>
           <Text mt={4} size="xl">
-            Not just another ChatGPT user-interface!
+            just another UI for GPT APIs
           </Text>
           <SimpleGrid
             mt={50}
@@ -65,18 +65,6 @@ export function IndexRoute() {
                 {openAiApiKey ? "Change OpenAI Key" : "Enter OpenAI Key"}
               </Button>
             </SettingsModal>
-            {!window.todesktop && (
-              <Button
-                component="a"
-                href="https://dl.todesktop.com/230313oyppkw40a"
-                // href="https://download.chatpad.ai/"
-                size="md"
-                variant="outline"
-                leftIcon={<IconCloudDownload size={20} />}
-              >
-                Download Desktop App
-              </Button>
-            )}
           </Group>
         </Container>
       </Center>
