@@ -224,6 +224,8 @@ export function Layout() {
                   size="xl"
                 >
                   <IconBrandGithub size={20} />
+               </ActionIcon>
+              </Tooltip>
               <Tooltip label="Feedback">
                 <ActionIcon
                   component="a"
