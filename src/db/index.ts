@@ -36,7 +36,7 @@ export class Database extends Dexie {
   settings!: Table<Settings>;
 
   constructor() {
-    super("arkin");
+    super("chatpad");
     this.version(2).stores({
       chats: "id, createdAt",
       messages: "id, chatId, createdAt",
