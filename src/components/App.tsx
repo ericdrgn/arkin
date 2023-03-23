@@ -49,7 +49,7 @@ export function App() {
           withCSSVariables
           theme={{
             colorScheme,
-            primaryColor: "gray[9]",
+            primaryColor: "gray",
             globalStyles: (theme) => ({
               body: {
                 backgroundColor:
