@@ -215,29 +215,16 @@ export function Layout() {
                   </ActionIcon>
                 </Tooltip>
               </DatabaseModal>
-              <Tooltip label="Source Code">
+              <Tooltip label="Source">
                 <ActionIcon
                   component="a"
-                  href="https://github.com/deiucanta/chatpad"
+                  href="https://github.com/ericdrgn/arkin"
                   target="_blank"
                   sx={{ flex: 1 }}
                   size="xl"
                 >
                   <IconBrandGithub size={20} />
-                </ActionIcon>
-              </Tooltip>
-              <Tooltip label="Follow on Twitter">
-                <ActionIcon
-                  component="a"
-                  href="https://twitter.com/deiucanta"
-                  target="_blank"
-                  sx={{ flex: 1 }}
-                  size="xl"
-                >
-                  <IconBrandTwitter size={20} />
-                </ActionIcon>
-              </Tooltip>
-              <Tooltip label="Give Feedback">
+              <Tooltip label="Feedback">
                 <ActionIcon
                   component="a"
                   href="https://feedback.chatpad.ai"
