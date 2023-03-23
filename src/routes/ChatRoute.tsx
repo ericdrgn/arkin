@@ -144,7 +144,7 @@ export function ChatRoute() {
           {
             role: "user",
             content:
-              "What would be a short and relevant title for this chat ? You must strictly answer with only the title, no other text is allowed.",
+              "You must use only the title, no other text is allowed.",
           },
         ]);
         const chatDescription =
